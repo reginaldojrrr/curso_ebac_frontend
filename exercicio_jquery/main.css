@@ -70,5 +70,6 @@ li {
     list-style: none;
 }
 
-
-
+li:hover {
+    cursor: pointer;
+}
