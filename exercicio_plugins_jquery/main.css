@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #1D1D1D;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+p, label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+form, header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 860px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form section {
+    margin-bottom: 24px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.campo-duplo {
+    display: flex;
+    gap: 8px;
+}
+
+#rua, #cidade {
+    width: 180px;
+}
+
+#numero, #UF {
+    width: 132px;
+}
+
+#numero::-webkit-inner-spin-button,
+#numero::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input, select {
+    background-color: #3F3356;
+    color: #F7F5F9;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    padding: 0 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 320px;
+    margin-bottom: 16px;
+}
+
+input::placeholder {
+    color: #83798b;
+}
+
+input:focus {
+    border: 2px solid #584A73;
+}
+
+button {
+    background-color: #6979F8;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    cursor: pointer;
+    width: 320px;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #5968d8;
+}
