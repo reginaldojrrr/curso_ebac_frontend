@@ -15,7 +15,7 @@ function compileSass() {
 function imageCompress() {
     return gulp.src('./source/images/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('./build.images'))
+        .pipe(gulp.dest('./build/images'))
 }
 
 function minimizeJS() {
