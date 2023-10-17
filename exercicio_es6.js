@@ -6,14 +6,6 @@ const alunos = [
     { nome: "Murilo", nota: 5 },
 ];
 
-const retornarNotas = () => {
-    const notasAprovadas = [];
-    for (let i = 0; i < alunos.length; i++) {
-        if (alunos[i].nota >= 6) {
-            notasAprovadas.push(alunos[i]);
-        }
-    }
-    return notasAprovadas;
-};
+const notasAprovadas = alunos.filter(aluno => aluno.nota >= 6);
 
-console.log(retornarNotas());
+console.log(notasAprovadas);
